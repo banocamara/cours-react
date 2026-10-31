@@ -5,14 +5,18 @@ function CarteProfil() {
   }
 
   return (
-    <h2 class="titre-profil">Moussa Diallo</h2>
-    <img src="/avatar.svg" alt="Portrait illustré de Moussa">
+    <>
+      <h2 className="titre-profil">Moussa Diallo</h2>
+    <img src="/avatar.svg" alt="Portrait illustré de Moussa"/>
     <form>
-      <label for="presentation">Ta présentation</label>
-      <input id="presentation" name="presentation" />
-      <button onclick={signalerClic}>Enregistrer</button>
+      <label htmlFor="presentation">Ta présentation</label>
+      <input id="presentation" className="presentation" />
+      <button onClick={signalerClic}>Enregistrer</button>
     </form>
+    </>
+    
   );
 }
+  export default CarteProfil;
 
-export default CarteProfil;
+
