@@ -11,7 +11,7 @@ function CarteProfil() {
     <form>
       <label htmlFor="presentation">Ta présentation</label>
       <input id="presentation" className="presentation" />
-      <button onClick={signalerClic}>Enregistrer</button>
+      <button type ="button" onClick={signalerClic}>Enregistrer</button>
     </form>
     </>
     
