@@ -4,7 +4,10 @@ import CarteProfil from './CarteProfil.jsx';
 export default function ListeEquipe() {
   return (
     <section className="grille">
-      {/* TODO(N1301) : assemble trois cartes avec des props différentes */}
+      <CarteProfil nom="Bano Camara" metier="Developpeur"/>
+      <CarteProfil nom="Gora Seye" metier="Big Data"/>
+      <CarteProfil nom="Fisto Cissé" metier="Expert en cyber"/>
+      <CarteProfil nom="Fatou Diop" metier="Développeuse FrontEnd"/>
     </section>
   );
 }
